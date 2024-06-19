@@ -26,45 +26,19 @@ Welcome to the React Quiz application! This project is a simple and interactive 
 To run this project locally, follow these steps:
 
 ### Clone the repository:
-git clone https://github.com/your-username/react-quiz.git
+git clone https://github.com/your-username/react-quiz.git<br/>
 cd react-quiz
 
 ### Install dependencies:
 npm install
 
 ### Start the local server:
-Make sure you have a server running at http://localhost:8000 that serves the questions in JSON format. You can use a tool like json-server for this:
-npm install -g json-server
+Make sure you have a server running at http://localhost:8000 that serves the questions in JSON format. You can use a tool like json-server for this:<br/>
+npm install -g json-server<br/>
 json-server --watch db.json --port 8000
 
 ### Run the application:
 npm start
-
-## File Structure
-Here's a quick overview of the file structure:
-react-quiz/
-├── public/
-│   └── index.html
-├── src/
-│   ├── components/
-│   │   ├── Error.js
-│   │   ├── FinishScreen.js
-│   │   ├── Footer.js
-│   │   ├── Header.js
-│   │   ├── Loader.js
-│   │   ├── Main.js
-│   │   ├── NextButton.js
-│   │   ├── Progress.js
-│   │   ├── Question.js
-│   │   ├── StartScreen.js
-│   │   ├── Timer.js
-│   │   └── index.js
-│   ├── App.js
-│   ├── index.css
-│   └── index.js
-├── questions.json
-├── package.json
-└── README.md
 
 ## Screenshots
 ![Screenshot 2024-06-18 231226](https://github.com/Ankita7238/React-Quiz/assets/141292926/4d1b5081-7af9-41a3-b19f-81ced8eded6a)
