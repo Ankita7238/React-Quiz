@@ -1,10 +1,16 @@
-# Getting Started with Create React App
+# React Quiz 🎉
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the React Quiz application! This project is a simple and interactive quiz built with React, designed to test your knowledge and mastery of React concepts. 🚀
 
-## Available Scripts
-
-In the project directory, you can run:
+## Features
+<ul>
+  <li>Dynamic Questions: Fetches questions from a local server.</li>
+  <li>Timer: Keeps track of the time left for each question.</li>
+  <li>Progress Tracker: Shows the current question number and points earned.</li>
+  <li>Error Handling: Displays an error message if there's an issue fetching questions.</li>
+  <li>High Scores: Keeps track of the highest score achieved.</li>
+  <li>Engaging UI: Fun and interactive design with emojis based on performance.</li>
+</ul>
 
 ### `npm start`
 
